@@ -24,9 +24,8 @@ import org.eclipse.emfcloud.modelserver.example.util.ResourceUtil;
 public final class ExampleServerLauncher {
    private static final String TEMP_DIR = ".temp";
    private static final String WORKSPACE_ROOT = "workspace";
-   private static final String ECORE_TEST_FILE = "Coffee.ecore";
-   private static final String COFFEE_TEST_FILE = "SuperBrewer3000.coffee";
-   private static final String JSON_TEST_FILE = "SuperBrewer3000.json";
+   private static final String ECORE_WORKFLOW = "workflow.ecore";
+   private static final String WORKFLOW_GENERIC = "Generic.workflow";
    private static final String UISCHEMA_FOLDER = ".ui-schemas";
    private static final String WORKSPACE_UISCHEMA_FOLDER = "workspace" + "/" + UISCHEMA_FOLDER;
    private static final String UISCHEMA_AUTOMATICTASK_FILE = "automatictask.json";
@@ -84,14 +83,10 @@ public final class ExampleServerLauncher {
    private static boolean setupTempTestWorkspace(final File workspaceRoot) {
       cleanupTempTestWorkspace(workspaceRoot);
       boolean result = workspaceRoot.mkdirs();
-      result &= ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + ECORE_TEST_FILE,
-         new File(workspaceRoot, ECORE_TEST_FILE));
-      result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + COFFEE_TEST_FILE,
-         new File(workspaceRoot, COFFEE_TEST_FILE));
-      result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/nested/" + COFFEE_TEST_FILE,
-         new File(workspaceRoot.getAbsolutePath() + "/nested/" + COFFEE_TEST_FILE));
-      result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + JSON_TEST_FILE,
-         new File(workspaceRoot, JSON_TEST_FILE));
+      result &= ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + ECORE_WORKFLOW,
+         new File(workspaceRoot, ECORE_WORKFLOW));
+      result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + WORKFLOW_GENERIC,
+         new File(workspaceRoot, WORKFLOW_GENERIC));
       result &= setupTempUiSchemaTestWorkspace(new File(workspaceRoot + "/" + UISCHEMA_FOLDER + "/"), result);
       return result;
    }
