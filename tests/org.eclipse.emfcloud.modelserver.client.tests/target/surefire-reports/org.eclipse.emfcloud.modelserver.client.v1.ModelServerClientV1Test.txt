@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.785 s - in org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test
+getModelUris(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.622 s
+getTypeSchema(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+create(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.016 s
+delete(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+getAll(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.007 s
+getXmi(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.042 s
+getElementByIdXMI(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.002 s
+cannotRedo(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+cannotUndo(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+update(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+configure(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.002 s
+updateWithUnsupportedFormat(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0 s
+createModel(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.014 s
+pingTrue(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+pingFalse(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0 s
+get(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.003 s
+edit(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.006 s
+redo(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+save(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+undo(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+getElementById(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+close(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+getElementByNameXMI(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.002 s
+getAllXmi(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.002 s
+updateWithFormat(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+getUiSchema(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+editNativeCommand(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.023 s
+getElementByName(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s
+saveAll(org.eclipse.emfcloud.modelserver.client.v1.ModelServerClientV1Test)  Time elapsed: 0.001 s

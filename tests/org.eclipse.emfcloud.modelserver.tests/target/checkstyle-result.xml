@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.tests/src/org/eclipse/emfcloud/modelserver/tests/util/MoreMatchers.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.tests/src/org/eclipse/emfcloud/modelserver/tests/util/EcoreTestUtil.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.tests/src/org/eclipse/emfcloud/modelserver/tests/util/EMFMatchers.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.tests/src/org/eclipse/emfcloud/modelserver/tests/util/OSUtil.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.tests/src/org/eclipse/emfcloud/modelserver/tests/util/MockitoUtil.java">
+</file>
+</checkstyle>

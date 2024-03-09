@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest
+createJsonSchemaFromEClassWithOptionalMultiReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0.001 s
+createJsonSchemaFromEClassWithMandatoryMultiReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEClassWithMandatoryStringAttribute(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEmptyEClass(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0.001 s
+createJsonSchemaFromEClassWithOptionalStringAttribute(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEClassWithMandatorySingleReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEClassWithCircularReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEClassWithOptionalSingleReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0 s
+createJsonSchemaFromEClassWithEMapReference(org.eclipse.emfcloud.modelserver.common.tests.jsonschema.DefaultJsonSchemaConverterEClassTest)  Time elapsed: 0.002 s

@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest
+getModelelementByNameXmiFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.068 s
+createNewModel(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.007 s
+updateXmi(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.006 s
+getAllXmiFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.019 s
+createNewModelWithoutPayload(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+validate(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.071 s
+getOneJsonFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.006 s
+getModelelementByIdJsonFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+undoRedo(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.019 s
+executeCommand(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.007 s
+getModelelementByNameJsonFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+saveModel(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.003 s
+saveNonExistingModel(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+getValidationConstraints(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.005 s
+createExistingModel(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+getModelelementByIdXmiFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s
+addCommandNotification(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.005 s
+getOneXmiFormat(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelControllerTest)  Time elapsed: 0.004 s

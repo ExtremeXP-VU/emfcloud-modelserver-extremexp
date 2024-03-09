@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/configuration/DefaultServerConfigurationTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/EMFJsonConverterTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/util/JsonPatchHelperTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/DefaultModelResourceManagerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/AbstractResourceTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSessionControllerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSchemaControllerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/DICodecsManagerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerRoutingV2Test.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelControllerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelValidatorTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelSynchronizerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelRepositoryTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelURIConverterTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSchemaRepositoryTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/FileModelWatcherIntegrationTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src/org/eclipse/emfcloud/modelserver/emf/patch/EMFCommandHandlerTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/ConstraintTestFactoryImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/SubClassWithConstraintImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/SuperClassWithConstraintImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/SubSubClassImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/SubClassImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/ConstraintTestPackageImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/impl/NoConstraintsClassImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/ConstraintTestFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/ConstraintTestPackage.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/util/ConstraintTestAdapterFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/util/ConstraintTestSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/util/ConstraintTestValidator.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/NoConstraintsClass.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/SuperClassWithConstraint.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/SubSubClass.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/SubClassWithConstraint.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.emf.tests/src-gen/org/eclipse/emfcloud/modelserver/emf/tests/constrainttest/SubClass.java">
+</file>
+</checkstyle>

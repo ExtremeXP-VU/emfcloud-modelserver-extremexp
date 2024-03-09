@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ModelServer Common
+Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.common
+Bundle-Version: 0.7.0.202403090736
+Automatic-Module-Name: org.eclipse.emfcloud.modelserver.common
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: com.fasterxml.jackson.core.jackson-core;bundle-version="
+ [2.9.0,3.0.0)",com.fasterxml.jackson.core.jackson-databind;bundle-versi
+ on="[2.9.0,3.0.0)",com.google.inject;bundle-version="[5.0.0,6.0.0)",org
+ .eclipse.emf.ecore;bundle-version="[2.20.0,3.0.0)",org.eclipse.emf.ecor
+ e.xmi;bundle-version="[2.16.0,3.0.0)",org.eclipse.emfcloud.emfjson-jack
+ son;bundle-version="[2.0.0,3.0.0)",org.eclipse.emf.edit;bundle-version=
+ "[2.16.0,3.0.0)"
+Export-Package: org.eclipse.emfcloud.modelserver.common,org.eclipse.emfc
+ loud.modelserver.common.codecs,org.eclipse.emfcloud.modelserver.common.
+ di,org.eclipse.emfcloud.modelserver.common.patch,org.eclipse.emfcloud.m
+ odelserver.common.utils,org.eclipse.emfcloud.modelserver.jsonschema
+Bundle-Vendor: EclipseSource
+Import-Package: com.google.inject.multibindings;version="1.3.0",org.apac
+ he.logging.log4j;version="2.17.1"
+Bundle-License: Eclipse Public License - v2.0;link="http://www.eclipse.o
+ rg/legal/epl-v20.html",MIT License;link="https://opensource.org/license
+ s/MIT"
+

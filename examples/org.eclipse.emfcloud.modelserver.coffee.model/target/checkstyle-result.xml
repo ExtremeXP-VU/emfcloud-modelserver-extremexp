@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Join.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/ProcessorImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/DisplayImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/MergeImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/ManualTaskImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/WaterTankImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/FlowImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/CoffeeFactoryImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/DipTrayImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/DecisionImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/NodeImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/WorkflowImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/DimensionImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/CoffeePackageImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/BrewingUnitImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/RAMImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/AutomaticTaskImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/ForkImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/ControlUnitImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/ComponentImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/MachineImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/WeightedFlowImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/JoinImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/impl/TaskImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/WeightedFlow.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/BrewingUnit.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Node.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Merge.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Machine.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/util/CoffeeAdapterFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/util/CoffeeSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/SocketConnectorType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Decision.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Probability.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Fork.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/ManufactoringProcess.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/RAM.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/RamType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Component.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Flow.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Display.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/ManualTask.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Processor.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/DipTray.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Dimension.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Task.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/AutomaticTask.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/WaterTank.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/ControlUnit.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/Workflow.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/CoffeeFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/examples/org.eclipse.emfcloud.modelserver.coffee.model/src/main/java/org/eclipse/emfcloud/modelserver/coffee/model/coffee/CoffeePackage.java">
+</file>
+</checkstyle>

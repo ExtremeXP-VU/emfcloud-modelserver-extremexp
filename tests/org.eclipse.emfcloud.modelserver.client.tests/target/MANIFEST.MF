@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ModelServer Client Tests
+Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.client.tests
+Bundle-Version: 0.7.0.202403090736
+Fragment-Host: org.eclipse.emfcloud.modelserver.client;bundle-version="0
+ .7.0"
+Automatic-Module-Name: org.eclipse.emfcloud.modelserver.client.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: com.fasterxml.jackson.core.jackson-annotations;bundle-ve
+ rsion="[2.9.0,3.0.0)",org.eclipse.emf.ecore;bundle-version="[2.20.0,3.0
+ .0)",org.eclipse.emf.edit;bundle-version="[2.16.0,3.0.0)",org.eclipse.e
+ mfcloud.modelserver.emf;bundle-version="[0.7.0,1.0.0)",org.eclipse.emfc
+ loud.modelserver.tests;bundle-version="[0.7.0,1.0.0)",org.eclipse.emfcl
+ oud.emfjson-jackson;bundle-version="[2.0.0,3.0.0)",org.junit;bundle-ver
+ sion="[4.12.0,5.0.0)",net.bytebuddy.byte-buddy;bundle-version="[1.9.0,2
+ .0.0)",net.bytebuddy.byte-buddy-agent;bundle-version="[1.9.0,2.0.0)",or
+ g.objenesis;bundle-version="[3.3.0,4.0.0)"
+Bundle-ClassPath: .
+Bundle-Vendor: EclipseSource
+Bundle-License: Eclipse Public License - v2.0;link="http://www.eclipse.o
+ rg/legal/epl-v20.html",MIT License;link="https://opensource.org/license
+ s/MIT"
+

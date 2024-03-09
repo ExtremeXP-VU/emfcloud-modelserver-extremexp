@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.eclipse.emfcloud.modelserver.lib' version='0.7.0.202403090736' singleton='false' generation='2'>
+    <update id='org.eclipse.emfcloud.modelserver.lib' range='[0.0.0,0.7.0.202403090736)' severity='0'/>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='ModelServer Third-Party Libraries'/>
+      <property name='org.eclipse.equinox.p2.provider' value='EclipseSource'/>
+      <property name='maven-groupId' value='org.eclipse.emfcloud.modelserver'/>
+      <property name='maven-artifactId' value='org.eclipse.emfcloud.modelserver.lib'/>
+      <property name='maven-version' value='0.7.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='98'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emfcloud.modelserver.lib' version='0.7.0.202403090736'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.emfcloud.modelserver.lib' version='0.7.0.202403090736'/>
+      <provided namespace='java.package' name='.' version='0.0.0'/>
+      <provided namespace='java.package' name='com.github.fge' version='1.3.0'/>
+      <provided namespace='java.package' name='com.github.fge.jackson' version='2.0.0'/>
+      <provided namespace='java.package' name='com.github.fge.jackson.jsonpointer' version='2.0.0'/>
+      <provided namespace='java.package' name='com.github.fge.jsonpatch' version='1.3.0'/>
+      <provided namespace='java.package' name='com.github.fge.jsonpatch.diff' version='1.3.0'/>
+      <provided namespace='java.package' name='com.github.fge.jsonpatch.mergepatch' version='1.3.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple' version='1.2.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple.bundle' version='1.2.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple.load' version='1.2.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple.locale' version='1.2.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple.provider' version='1.2.0'/>
+      <provided namespace='java.package' name='com.github.fge.msgsimple.source' version='1.2.0'/>
+      <provided namespace='java.package' name='io.javalin' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.apibuilder' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.compression' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.event' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.plugin' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.routing' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.security' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.util' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.core.validation' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.http' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.http.sse' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.http.staticfiles' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.http.util' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.jetty' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.json' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.metrics' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.rendering' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.rendering.markdown' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.rendering.template' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.plugin.rendering.vue' version='0.0.0'/>
+      <provided namespace='java.package' name='io.javalin.websocket' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.annotation' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.collections' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.collections.builders' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.collections.unsigned' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.comparisons' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.contracts' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.coroutines' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.coroutines.cancellation' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.coroutines.intrinsics' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.coroutines.jvm.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.experimental' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.io' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.js' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.jvm' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.jvm.functions' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.jvm.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.jvm.internal.markers' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.jvm.internal.unsafe' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.math' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.properties' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.random' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.ranges' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.reflect' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.sequences' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.system' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.text' version='0.0.0'/>
+      <provided namespace='java.package' name='kotlin.time' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.authenticator' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.cache' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.cache2' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.concurrent' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.connection' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.http' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.http1' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.http2' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.io' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.platform' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.platform.android' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.proxy' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.publicsuffix' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.tls' version='0.0.0'/>
+      <provided namespace='java.package' name='okhttp3.internal.ws' version='0.0.0'/>
+      <provided namespace='java.package' name='okio' version='0.0.0'/>
+      <provided namespace='java.package' name='okio.internal' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.commons.cli' version='0.0.0'/>
+      <provided namespace='java.package' name='org.apache.logging.slf4j' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.jetty.websocket.api' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.jetty.websocket.api.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.jetty.websocket.api.extensions' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.jetty.websocket.api.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.jetty.websocket.servlet' version='0.0.0'/>
+      <provided namespace='java.package' name='org.intellij.lang.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.jetbrains.annotations' version='0.0.0'/>
+      <provided namespace='java.package' name='org.slf4j.impl' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.emfcloud.modelserver.lib' version='0.7.0.202403090736'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='15'>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.http' range='[9.4.44,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.io' range='[9.4.44,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.util' range='[9.4.44,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.server' range='[9.4.43,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.servlet' range='[9.4.43,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.websocket.server' range='[9.4.44,10.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.websocket.api' range='9.4.44'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.websocket.common' range='9.4.44'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jetty.websocket.servlet' range='9.4.44'/>
+      <required namespace='osgi.bundle' name='com.fasterxml.jackson.core.jackson-databind' range='2.12.1'/>
+      <required namespace='osgi.bundle' name='com.fasterxml.jackson.core.jackson-core' range='2.12.1'/>
+      <required namespace='java.package' name='javax.servlet' range='3.1.0'/>
+      <required namespace='java.package' name='javax.servlet.http' range='3.1.0'/>
+      <required namespace='java.package' name='org.apache.logging.log4j' range='[2.17.1,3.0.0)'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+        <description>
+          org.eclipse.emfcloud.modelserver.lib
+        </description>
+      </requiredProperties>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.emfcloud.modelserver.lib' version='0.7.0.202403090736'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.lib&#xA;Bundle-Version: 0.7.0.202403090736&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

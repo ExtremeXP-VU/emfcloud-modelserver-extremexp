@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/EMFCommandType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/util/CommandUtil.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/ModelServerCommand.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/CommandCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/CommandExecutionType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/DICommandCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/CompoundCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/RemoveCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/BasicCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/SetCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/UpdateModelCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/command/AddCommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/CommandContribution.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/edit/EMFCommandCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/JsonPatchCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/DefaultJsonPatchCodecFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/ValueSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/JsonValueUtil.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/OperationSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src/org/eclipse/emfcloud/modelserver/jsonpatch/util/DefaultJsonPatchCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/impl/CCommandExecutionResultImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/impl/CCommandPackageImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/impl/CCommandFactoryImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/impl/CCommandImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/impl/CCompoundCommandImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/CCommandExecutionResult.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/util/CommandAdapterFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/util/CommandSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/CCommandFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/CCommandPackage.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/CCompoundCommand.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/command/CCommand.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/ValueImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/CopyImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/JsonPatchFactoryImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/TestImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/JsonPatchImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/MoveImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/OperationImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/ObjectValueImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/ReplaceImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/AddImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/JsonPatchPackageImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/NumberValueImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/StringValueImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/BooleanValueImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/impl/RemoveImpl.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/OpKind.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/util/JsonPatchSwitch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/util/JsonPatchAdapterFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Operation.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Add.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Remove.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Replace.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/ObjectValue.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/BooleanValue.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Test.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/NumberValue.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/JsonPatch.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/StringValue.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Value.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Copy.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/Move.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/JsonPatchFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.edit/src-gen/org/eclipse/emfcloud/modelserver/jsonpatch/JsonPatchPackage.java">
+</file>
+</checkstyle>

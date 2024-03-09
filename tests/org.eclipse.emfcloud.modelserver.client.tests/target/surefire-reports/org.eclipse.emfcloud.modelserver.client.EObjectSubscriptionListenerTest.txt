@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.client.EObjectSubscriptionListenerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.787 s - in org.eclipse.emfcloud.modelserver.client.EObjectSubscriptionListenerTest
+onFullUpdate(org.eclipse.emfcloud.modelserver.client.EObjectSubscriptionListenerTest)  Time elapsed: 0.268 s
+onIncrementalUpdate(org.eclipse.emfcloud.modelserver.client.EObjectSubscriptionListenerTest)  Time elapsed: 0.012 s

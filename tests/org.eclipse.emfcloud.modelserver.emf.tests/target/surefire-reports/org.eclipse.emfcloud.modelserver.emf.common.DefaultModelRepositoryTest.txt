@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest
+getModelElementById(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest)  Time elapsed: 0.005 s
+getAllModels(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest)  Time elapsed: 0.001 s
+getAllModelUris(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest)  Time elapsed: 0.001 s
+getModelElementByName(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelRepositoryTest)  Time elapsed: 0.003 s

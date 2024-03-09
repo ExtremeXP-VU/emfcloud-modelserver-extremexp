@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest
+valueOf_intSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0.001 s
+valueOf_bigSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0 s
+isInteger_intSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0 s
+isInteger_bigSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0 s
+valueOf_longSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0 s
+isInteger_longSized(org.eclipse.emfcloud.modelserver.jsonpatch.util.JsonValueUtilTest)  Time elapsed: 0 s

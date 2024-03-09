@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest
+testUnsubscribeFromInvalidSession(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.152 s
+testSubscribeAndSendKeepAlive(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.01 s
+testUnsubscribeFromValidSession(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.005 s
+testSubscribeToInvalidModelUri(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.002 s
+testCommandSubscription(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.01 s
+testSubscribeToValidModelUri(org.eclipse.emfcloud.modelserver.emf.common.DefaultSessionControllerTest)  Time elapsed: 0.003 s

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/di/AbstractModuleWithInitializersTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/utils/APIVersionRangeTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/utils/APIVersionMapTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/jsonschema/DefaultJsonSchemaConverterEClassTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/jsonschema/DefaultJsonSchemaConverterTestHelper.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.common.tests/src/org/eclipse/emfcloud/modelserver/common/tests/jsonschema/DefaultJsonSchemaConverterEPackageTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.client.tests/src/org/eclipse/emfcloud/modelserver/client/v1/ModelServerClientV1Test.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.client.tests/src/org/eclipse/emfcloud/modelserver/client/v2/ModelServerClientV2Test.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.client.tests/src/org/eclipse/emfcloud/modelserver/client/ModelServerClientTest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.client.tests/src/org/eclipse/emfcloud/modelserver/client/EObjectSubscriptionListenerTest.java">
+</file>
+</checkstyle>

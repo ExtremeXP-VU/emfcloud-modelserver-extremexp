@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest
+decode_addOp_number(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.02 s
+decode_addOp_object(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.019 s
+decode_addOp_string(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+encode_patch(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.013 s
+decode_copyOp(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_moveOp(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0 s
+decode_replaceOp_number(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_replaceOp_object(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_replaceOp_string(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0 s
+decode_testOp_boolean(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_replaceOp_boolean(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0 s
+decode_removeOp(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0 s
+decode_testOp_number(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_testOp_object(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s
+decode_testOp_string(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0 s
+decode_addOp_boolean(org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest)  Time elapsed: 0.001 s

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/EcorePackageConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/DefaultServerConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/CommandPackageConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/ServerConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/ChangePackageConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/EPackageConfiguration.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/FacetConfig.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/configuration/ServerConfigurationDTO.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/di/ProviderDefaults.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/di/MultiBindingDefaults.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/di/DefaultModelServerModule.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/di/ModelServerModule.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/util/JsonPatchHelper.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/util/LazyTransactionalCompoundCommand.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/ModelServerEntryPoint.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/DefaultModelServerStartup.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/CLIParser.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/ModelServerLauncher.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/CLIBasedModelServerLauncher.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/launch/ModelServerStartup.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelListener.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSchemaController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerRoutingV1.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelURIConverter.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSessionController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelRepository.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/CodecProvider.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/DefaultCodecsProvider.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/JsonCodec.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/JsonCodecV2.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/DICodecsManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/CodecsManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/codecs/jackson/EMFModuleV2.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonRequestType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultSchemaRepository.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonResponseMember.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/RecordingModelResourceManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ValidationMapperModule.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/util/Message.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/util/ContextResponse.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/util/ContextRequest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/SingleThreadModelController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerCommandStack.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonResponseType.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/SingleThreadTransactionController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultServerController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelResourceManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerEditingDomain.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/EMFFacetConstraints.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelRepository.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelSynchronizer.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonResponse.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelValidator.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultFacetConfig.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelSynchronizer.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelResourceManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/SchemaController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultResourceSetFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/SchemaRepository.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/UriHelper.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/TransactionController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultUriHelper.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ReadResourceSet.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ResourceSetFactory.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerRoutingDelegate.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonRequest.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelValidator.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/JsonRequestMember.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ModelServerRoutingV2.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/SessionController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultTransactionController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/DefaultModelURIConverter.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/ModelWatcher.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/ModelWatchersManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/ReconcilingStrategy.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/FileModelWatcher.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/AbstractModelWatcher.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/watchers/DIModelWatchersManager.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/common/ServerController.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/patch/PatchCommandHandler.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/patch/CommandExecutor.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/patch/JsonPatchHandler.java">
+</file>
+<file name="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/bundles/org.eclipse.emfcloud.modelserver.emf/src/org/eclipse/emfcloud/modelserver/emf/patch/EMFCommandHandler.java">
+</file>
+</checkstyle>
