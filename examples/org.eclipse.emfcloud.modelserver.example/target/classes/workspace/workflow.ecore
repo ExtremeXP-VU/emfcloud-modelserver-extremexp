@@ -16,7 +16,7 @@
     <eLiterals name="END" value="1"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ExternalInputData" eSuperTypes="#//InputData">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eligibilityCondition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eligibilityCondition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IntermediateInputData" eSuperTypes="#//InputData">
     <eStructuralFeatures xsi:type="ecore:EReference" name="outputdata" eType="#//OutputData"/>
@@ -27,7 +27,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Metric">
     <eStructuralFeatures xsi:type="ecore:EReference" name="outputdata" eType="#//OutputData"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Parameter">
+  <eClassifiers xsi:type="ecore:EClass" name="Parameter" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//ParameterType"/>
   </eClassifiers>
@@ -35,7 +35,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="#//OutputData"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="StaticParameter" eSuperTypes="#//Parameter">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//AnySimpleType"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ParameterType" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -76,25 +76,26 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="metadata" upperBound="-1"
         eType="#//MetaData" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ui" eType="#//UI"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditions" upperBound="-1"
+        eType="#//Condition" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Operator" abstract="true" eSuperTypes="#//Node"/>
   <eClassifiers xsi:type="ecore:EClass" name="Link" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="output" eType="#//Node"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="input" eType="#//Node"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ConditionalLink" eSuperTypes="#//Link">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="condition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalLink" eSuperTypes="#//Link"/>
   <eClassifiers xsi:type="ecore:EClass" name="RegularLink" eSuperTypes="#//Link"/>
   <eClassifiers xsi:type="ecore:EClass" name="ExceptionalLink" eSuperTypes="#//Link">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="event" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EJavaObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="event" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="UI"/>
   <eClassifiers xsi:type="ecore:EClass" name="Group">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="metadata" upperBound="-1"
         eType="#//MetaData" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="task" upperBound="-1" eType="#//Task"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tasks" upperBound="-1"
+        eType="#//Task"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ui" eType="#//UI"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="MetaData">
@@ -103,14 +104,16 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Parallel" eSuperTypes="#//Operator"/>
   <eClassifiers xsi:type="ecore:EClass" name="Exclusive" eSuperTypes="#//Operator">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="condition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" lowerBound="1"
+        eType="#//Condition" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Inclusive" eSuperTypes="#//Operator">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="conditions" upperBound="-1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditions" lowerBound="1"
+        upperBound="-1" eType="#//Condition" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Complex" eSuperTypes="#//Operator">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="complexCondition" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditions" lowerBound="1"
+        upperBound="-1" eType="#//Condition" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ParallelJoin" eSuperTypes="#//Operator"/>
   <eClassifiers xsi:type="ecore:EClass" name="ExclusiveJoin" eSuperTypes="#//Operator"/>
@@ -122,5 +125,49 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="PrimitiveType" eSuperTypes="#//ParameterType">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//Primitive"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Specification">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="groups" upperBound="-1"
+        eType="#//Group" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parametertypes" upperBound="-1"
+        eType="#//ParameterType" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workflow" eType="#//Workflow"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflow" upperBound="-1"
+        eType="#//DeployedWorkflow" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="experimentspace" eType="#//ExperimentSpace"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeployedWorkflow">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workflow" eType="#//Workflow"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="configuredtask" upperBound="-1"
+        eType="#//ConfiguredTask" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConfiguredTask" eSuperTypes="#//Task">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="configuration" eType="#//Task"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Condition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cases" lowerBound="1" upperBound="-1"
+        eType="#//Case" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DeployedWorkflowParameterSpace">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="method" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflow" eType="#//DeployedWorkflow"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameterdomain" upperBound="-1"
+        eType="#//ParameterDomain" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExperimentSpace">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflowparameterspace"
+        upperBound="-1" eType="#//DeployedWorkflowParameterSpace" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ParameterDomain" eSuperTypes="#//StaticParameter">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="staticparameter" eType="#//StaticParameter"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Case">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="case" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" lowerBound="1"
+        eType="#//Node"/>
   </eClassifiers>
 </ecore:EPackage>

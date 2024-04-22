@@ -26,6 +26,7 @@ public final class ExampleServerLauncher {
    private static final String WORKSPACE_ROOT = "workspace";
    private static final String ECORE_WORKFLOW = "workflow.ecore";
    private static final String WORKFLOW_GENERIC = "Generic.workflow";
+   private static final String WORKFLOW_TEST = "test.workflow";
    private static final String UISCHEMA_FOLDER = ".ui-schemas";
    private static final String WORKSPACE_UISCHEMA_FOLDER = "workspace" + "/" + UISCHEMA_FOLDER;
    private static final String UISCHEMA_AUTOMATICTASK_FILE = "automatictask.json";
@@ -87,6 +88,8 @@ public final class ExampleServerLauncher {
          new File(workspaceRoot, ECORE_WORKFLOW));
       result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + WORKFLOW_GENERIC,
          new File(workspaceRoot, WORKFLOW_GENERIC));
+      result &= result && ResourceUtil.copyFromResource(WORKSPACE_ROOT + "/" + WORKFLOW_TEST,
+         new File(workspaceRoot, WORKFLOW_TEST));
       result &= setupTempUiSchemaTestWorkspace(new File(workspaceRoot + "/" + UISCHEMA_FOLDER + "/"), result);
       return result;
    }
