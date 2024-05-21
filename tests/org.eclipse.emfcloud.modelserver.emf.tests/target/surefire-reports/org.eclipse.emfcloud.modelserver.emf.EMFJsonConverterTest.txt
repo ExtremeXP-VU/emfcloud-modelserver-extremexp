@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 s - in org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest
-testToJsonSimple(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.007 s
-testFromJsonCoffeeJson(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.008 s
-testToJsonCoffeeJson(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.005 s
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest
+testToJsonSimple(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.011 s
+testFromJsonCoffeeJson(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.01 s
+testToJsonCoffeeJson(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.004 s
 testFromJsonExplicitCast(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.007 s
 testFromJsonSimple(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.002 s
 testFromJsonFailedCast(org.eclipse.emfcloud.modelserver.emf.EMFJsonConverterTest)  Time elapsed: 0.006 s

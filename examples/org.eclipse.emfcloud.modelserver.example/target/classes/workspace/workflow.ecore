@@ -132,12 +132,12 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="parametertypes" upperBound="-1"
         eType="#//ParameterType" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="workflow" eType="#//Workflow"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workflow" upperBound="-1"
+        eType="#//Workflow" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflow" upperBound="-1"
         eType="#//DeployedWorkflow" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="experimentspace" eType="#//ExperimentSpace"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="experimentspace" upperBound="-1"
+        eType="#//ExperimentSpace" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="DeployedWorkflow">
     <eStructuralFeatures xsi:type="ecore:EReference" name="workflow" eType="#//Workflow"/>
@@ -152,15 +152,10 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="cases" lowerBound="1" upperBound="-1"
         eType="#//Case" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DeployedWorkflowParameterSpace">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="method" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ExperimentSpace">
     <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflow" eType="#//DeployedWorkflow"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="parameterdomain" upperBound="-1"
         eType="#//ParameterDomain" containment="true"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="ExperimentSpace">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="deployedworkflowparameterspace"
-        upperBound="-1" eType="#//DeployedWorkflowParameterSpace" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ParameterDomain" eSuperTypes="#//StaticParameter">
     <eStructuralFeatures xsi:type="ecore:EReference" name="staticparameter" eType="#//StaticParameter"/>

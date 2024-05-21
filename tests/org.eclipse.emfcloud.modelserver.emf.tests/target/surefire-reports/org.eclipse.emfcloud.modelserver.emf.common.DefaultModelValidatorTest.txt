@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest
-getValidationConstraints_SubClassWithConstraint(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.011 s
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest
+getValidationConstraints_SubClassWithConstraint(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.012 s
 getValidationConstraints_ParentConstraint(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.003 s
 getValidationConstraints_HideConstraints(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.002 s
 getValidationConstraints_SuperClassConstraint(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.003 s
-getValidationConstraints_NoConstraints(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.003 s
+getValidationConstraints_NoConstraints(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelValidatorTest)  Time elapsed: 0.002 s

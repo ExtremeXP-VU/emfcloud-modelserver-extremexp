@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest
-loadUiSchema_schemaUnvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest)  Time elapsed: 0.001 s
-loadUiSchema_schemaAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest)  Time elapsed: 0.002 s
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest
+loadUiSchema_schemaUnvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest)  Time elapsed: 0 s
+loadUiSchema_schemaAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaRepositoryTest)  Time elapsed: 0 s

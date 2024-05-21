@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ModelServer Third-Party Libraries
 Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.lib
-Bundle-Version: 0.7.0.202403090736
+Bundle-Version: 0.7.0.202405201638
 Bundle-Vendor: EclipseSource
 Automatic-Module-Name: org.eclipse.emfcloud.modelserver.lib
 Bundle-RequiredExecutionEnvironment: JavaSE-11

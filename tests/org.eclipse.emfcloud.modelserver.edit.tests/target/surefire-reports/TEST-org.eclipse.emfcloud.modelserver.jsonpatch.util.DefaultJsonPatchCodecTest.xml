@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.061" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.059" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="osgi.checkConfiguration" value="true"/>
     <property name="java.specification.version" value="17"/>
@@ -16,7 +16,7 @@
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="org.osgi.framework.system.capabilities" value="osgi.ee; osgi.ee=&quot;OSGi/Minimum&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2&quot;, osgi.ee; osgi.ee=&quot;JRE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1&quot;, osgi.ee; osgi.ee=&quot;JavaSE&quot;; version:List&lt;Version&gt;=&quot;1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact1&quot;; version:List&lt;Version&gt;=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact2&quot;; version:List&lt;Version&gt;=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0&quot;,osgi.ee; osgi.ee=&quot;JavaSE/compact3&quot;; version:List&lt;Version&gt;=&quot;1.8, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0&quot;"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
-    <property name="org.osgi.framework.uuid" value="99a4a5da-d57a-4293-bd13-1f571b1c99d4"/>
+    <property name="org.osgi.framework.uuid" value="0d0e6406-4aad-4881-9ce4-b493b1478f36"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="org.osgi.framework.processor" value="aarch64"/>
@@ -27,7 +27,7 @@
     <property name="jdk.debug" value="release"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="org.osgi.supports.framework.requirebundle" value="true"/>
-    <property name="osgi.logfile" value="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.edit.tests/target/work/configuration/1709969794036.log"/>
+    <property name="osgi.logfile" value="/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.edit.tests/target/work/configuration/1716223155492.log"/>
     <property name="osgi.arch" value="aarch64"/>
     <property name="user.home" value="/Users/yunabell"/>
     <property name="osgi.install.area" value="file:/Users/yunabell/Desktop/emfcloud-modelserver-extremexp/tests/org.eclipse.emfcloud.modelserver.edit.tests/target/work/"/>
@@ -55,7 +55,7 @@
     <property name="path.separator" value=":"/>
     <property name="osgi.framework.useSystemProperties" value="true"/>
     <property name="osgi.compatibility.bootdelegation" value="true"/>
-    <property name="os.version" value="14.2.1"/>
+    <property name="os.version" value="14.4.1"/>
     <property name="org.osgi.framework.vendor" value="Eclipse"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="org.osgi.supports.framework.fragment" value="true"/>
@@ -83,10 +83,10 @@
     <property name="osgi.bundles.defaultStartLevel" value="4"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="osgi.configuration.cascaded" value="false"/>
-    <property name="eclipse.startTime" value="1709969793964"/>
+    <property name="eclipse.startTime" value="1716223155419"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/yunabell/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="org.osgi.framework.os.version" value="14.2.1"/>
+    <property name="org.osgi.framework.os.version" value="14.4.1"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="17.0.6+10-LTS"/>
@@ -97,16 +97,16 @@
   <testcase name="decode_addOp_number" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.02"/>
   <testcase name="decode_addOp_object" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.019"/>
   <testcase name="decode_addOp_string" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
-  <testcase name="encode_patch" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.013"/>
-  <testcase name="decode_copyOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
-  <testcase name="decode_moveOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
+  <testcase name="encode_patch" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.011"/>
+  <testcase name="decode_copyOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
+  <testcase name="decode_moveOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
   <testcase name="decode_replaceOp_number" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
   <testcase name="decode_replaceOp_object" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
   <testcase name="decode_replaceOp_string" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
   <testcase name="decode_testOp_boolean" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
   <testcase name="decode_replaceOp_boolean" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
-  <testcase name="decode_removeOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
-  <testcase name="decode_testOp_number" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
+  <testcase name="decode_removeOp" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
+  <testcase name="decode_testOp_number" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
   <testcase name="decode_testOp_object" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>
   <testcase name="decode_testOp_string" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0"/>
   <testcase name="decode_addOp_boolean" classname="org.eclipse.emfcloud.modelserver.jsonpatch.util.DefaultJsonPatchCodecTest" time="0.001"/>

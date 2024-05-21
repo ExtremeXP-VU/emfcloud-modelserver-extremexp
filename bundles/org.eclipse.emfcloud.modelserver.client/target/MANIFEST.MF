@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ModelServer Client
 Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.client
-Bundle-Version: 0.7.0.202403090736
+Bundle-Version: 0.7.0.202405201638
 Automatic-Module-Name: org.eclipse.emfcloud.modelserver.client
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: com.fasterxml.jackson.core.jackson-core;bundle-version="

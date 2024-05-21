@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ModelServer Test Base
 Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.tests
-Bundle-Version: 0.7.0.202403090736
+Bundle-Version: 0.7.0.202405201638
 Automatic-Module-Name: org.eclipse.emfcloud.modelserver.tests
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.emf.common;bundle-version="[2.17.0,3.0.0)",o

@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.146 s - in org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest
-hasResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.237 s
-addResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.229 s
-testLoadModelFromEcore(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.225 s
-testLoadModelCastToExactType(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.216 s
-testLoadModelCastToSupertype(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.217 s
-saveNonExistingResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.219 s
-saveResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.222 s
-testLoadModelFromInvalidModelUri(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.22 s
-jsonPatchHelperInjection(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.218 s
-testLoadModelInvalidCast(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.252 s
-hasResourceNot(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.225 s
-loadModel(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.219 s
-deleteResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.223 s
-testLoadModelFromJson(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.221 s
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.766 s - in org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest
+hasResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.278 s
+addResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.272 s
+testLoadModelFromEcore(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.279 s
+testLoadModelCastToExactType(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.275 s
+testLoadModelCastToSupertype(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.251 s
+saveNonExistingResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.261 s
+saveResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.261 s
+testLoadModelFromInvalidModelUri(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.282 s
+jsonPatchHelperInjection(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.256 s
+testLoadModelInvalidCast(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.26 s
+hasResourceNot(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.272 s
+loadModel(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.282 s
+deleteResource(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.281 s
+testLoadModelFromJson(org.eclipse.emfcloud.modelserver.emf.DefaultModelResourceManagerTest)  Time elapsed: 0.252 s

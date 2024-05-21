@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: ModelServer Edit
 Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.edit;singleton:=tr
  ue
-Bundle-Version: 0.7.0.202403090736
+Bundle-Version: 0.7.0.202405201638
 Automatic-Module-Name: org.eclipse.emfcloud.modelserver.edit
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: com.google.guava;bundle-version="[27.1.0,31.0.0)",org.ec

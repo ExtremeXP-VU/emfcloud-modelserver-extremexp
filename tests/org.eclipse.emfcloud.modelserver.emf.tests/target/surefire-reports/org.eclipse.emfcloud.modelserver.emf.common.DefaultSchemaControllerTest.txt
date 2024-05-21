@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest
-getUiSchema_schemaUnavailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.075 s
-getTypeSchema_modelAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.002 s
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest
+getUiSchema_schemaUnavailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.072 s
+getTypeSchema_modelAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.001 s
 getTypeSchema_modelUnavailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.001 s
-getUiSchema_schemaAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0 s
+getUiSchema_schemaAvailable(org.eclipse.emfcloud.modelserver.emf.common.DefaultSchemaControllerTest)  Time elapsed: 0.001 s

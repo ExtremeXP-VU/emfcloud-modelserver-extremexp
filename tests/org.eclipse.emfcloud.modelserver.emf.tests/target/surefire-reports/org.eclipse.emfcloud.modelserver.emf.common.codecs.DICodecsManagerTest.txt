@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.227 s - in org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest
-decode_wscontext(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.2 s
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 s - in org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest
+decode_wscontext(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.144 s
 decode_context(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.009 s
-encode_wscontext(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.004 s
-encode_context(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.004 s
-decode_wscontextWithWorkspaceURI(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.004 s
+encode_wscontext(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.003 s
+encode_context(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.005 s
+decode_wscontextWithWorkspaceURI(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.003 s
 decode_contextWithWorkspaceURI(org.eclipse.emfcloud.modelserver.emf.common.codecs.DICodecsManagerTest)  Time elapsed: 0.004 s

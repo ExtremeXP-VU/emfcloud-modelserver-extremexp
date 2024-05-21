@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.787 s - in org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest
-getObjectURIFunction_replace(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 1.181 s
-add_containmentReference_withIndex(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.042 s
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.583 s - in org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest
+getObjectURIFunction_replace(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.949 s
+add_containmentReference_withIndex(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.041 s
 add_attribute_withIndex(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.01 s
-getObjectURIFunction_remove(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.024 s
-add_attribute(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.009 s
+getObjectURIFunction_remove(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.025 s
+add_attribute(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.008 s
 add_attribute_explicitAppend(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.008 s
-add_containmentReference(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.008 s
-add_containmentReference_explicitAppend(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.008 s
-getObjectURIFunction_add(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.021 s
+add_containmentReference(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.007 s
+add_containmentReference_explicitAppend(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.007 s
+getObjectURIFunction_add(org.eclipse.emfcloud.modelserver.emf.util.JsonPatchHelperTest)  Time elapsed: 0.022 s

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ModelServer Common Tests
 Bundle-SymbolicName: org.eclipse.emfcloud.modelserver.common.tests
-Bundle-Version: 0.7.0.202403090736
+Bundle-Version: 0.7.0.202405201638
 Fragment-Host: org.eclipse.emfcloud.modelserver.common;bundle-version="0
  .7.0"
 Automatic-Module-Name: org.eclipse.emfcloud.modelserver.common.tests

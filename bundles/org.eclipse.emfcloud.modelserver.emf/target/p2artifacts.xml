@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='2'>
-  <artifact classifier='osgi.bundle' id='org.eclipse.emfcloud.modelserver.emf' version='0.7.0.202403090736'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.emfcloud.modelserver.emf' version='0.7.0.202405201638'>
     <properties size='6'>
       <property name='artifact.size' value='216272'/>
       <property name='download.size' value='216272'/>
@@ -11,7 +11,7 @@
       <property name='maven-type' value='eclipse-plugin'/>
     </properties>
   </artifact>
-  <artifact classifier='osgi.bundle' id='org.eclipse.emfcloud.modelserver.emf.source' version='0.7.0.202403090736'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.emfcloud.modelserver.emf.source' version='0.7.0.202405201638'>
     <properties size='7'>
       <property name='artifact.size' value='123369'/>
       <property name='download.size' value='123369'/>

@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.203 s - in org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest
-normalizeWorkspaceRoot(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.174 s
-getUiSchemaFolder(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s - in org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest
+normalizeWorkspaceRoot(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.177 s
+getUiSchemaFolder(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.001 s
 normalizeWorkspaceRootSlashAlreadyPresent(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
 setWorkspaceRootURI(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
 setWorkspaceRoot(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
-normalizeWorkspaceRootDecoded(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
+normalizeWorkspaceRootDecoded(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.001 s
 normalizeWorkspaceRootEncoded(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
-getWorkspaceEntries(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.009 s
-isUiSchemaFolder(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.001 s
-isValidFileURI(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
+getWorkspaceEntries(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.008 s
+isUiSchemaFolder(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0 s
+isValidFileURI(org.eclipse.emfcloud.modelserver.emf.configuration.DefaultServerConfigurationTest)  Time elapsed: 0.001 s

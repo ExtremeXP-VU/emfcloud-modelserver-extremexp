@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest
-asyncCall(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest)  Time elapsed: 0.004 s
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest
+asyncCall(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest)  Time elapsed: 0.003 s
 asyncExec(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest)  Time elapsed: 0 s
 reentrantSyncCall(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest)  Time elapsed: 0.001 s
 reentrantSyncExec(org.eclipse.emfcloud.modelserver.emf.common.DefaultModelSynchronizerTest)  Time elapsed: 0 s
